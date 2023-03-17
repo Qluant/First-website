@@ -1,42 +1,42 @@
-icon:Українська
-navbar_profile:Мій профіль
-navbar_leaders:Лідери
-navbar_bank:Заробіток
-navbar_settings:Налаштування
-navbar_console:Консоль
-navbar_logout:Вийти з аккаунту
-settings_title:Налаштування
-settings_submit:Прийняти
-bank_coins:Ви маєте {} монет
-bank_new_coins:Ви здобули {} монет!
-bank_remain:Ви зможете знову здобути монети через {} хвилин
-bank_submit:Здобути монет
-profile_username:Ім'я: {}
-profile_email:Пошта: {}
-profile_rank:Ранг: {}
-profile_registered:З нами з {}
-profile_coins:{} монет у користувача
-profile_achievement:Досягнення:
-achievement_coins_1_name:Перші кроки
-achievement_coins_2_name:Годі жебракувати!
-achievement_coins_3_name:Пора в пани!
-achievement_coins_4_name:Пан
-achievement_coins_5_name:Поперед батька в пекло!
-achievement_coins_6_name:Мене не зупинити!
-achievement_coins_7_name:Власний викупити всіх кріпаків
-achievement_coins_8_name:Новий Сагайдачний?
-achievement_coins_9_name:Скільки коштують воріженьки?
-achievement_coins_10_name:Батьківщина тепер ніколи не зазнає злиднів
-achievement_coins_1_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_2_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_3_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_4_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_5_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_6_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_7_description:Користувач здобув {} монеток, а зробив він це {}.
-achievement_coins_8_description:Користувач здобув {} монеток, тим самим привернувши увагу адміна {}.
-achievement_coins_9_description:Цей шановний пан заробив {} монет. Приєднався до панства {}.
-achievement_coins_10_description:Назбирав для Батьківщини {} монет, того дня ({}) вона стала незалежна.
-Newbie:Кріпак
-Moderator:Адмін сайту
-White crow:Біла ворона
+icon:РЈРєСЂР°С—РЅСЃСЊРєР°
+navbar_profile:РњС–Р№ РїСЂРѕС„С–Р»СЊ
+navbar_leaders:Р›С–РґРµСЂРё
+navbar_bank:Р—Р°СЂРѕР±С–С‚РѕРє
+navbar_settings:РќР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ
+navbar_console:РљРѕРЅСЃРѕР»СЊ
+navbar_logout:Р’РёР№С‚Рё Р· Р°РєРєР°СѓРЅС‚Сѓ
+settings_title:РќР°Р»Р°С€С‚СѓРІР°РЅРЅСЏ
+settings_submit:РџСЂРёР№РЅСЏС‚Рё
+bank_coins:Р’Рё РјР°С”С‚Рµ {} РјРѕРЅРµС‚
+bank_new_coins:Р’Рё Р·РґРѕР±СѓР»Рё {} РјРѕРЅРµС‚!
+bank_remain:Р’Рё Р·РјРѕР¶РµС‚Рµ Р·РЅРѕРІСѓ Р·РґРѕР±СѓС‚Рё РјРѕРЅРµС‚Рё С‡РµСЂРµР· {} С…РІРёР»РёРЅ
+bank_submit:Р—РґРѕР±СѓС‚Рё РјРѕРЅРµС‚
+profile_username:Р†Рј'СЏ: {}
+profile_email:РџРѕС€С‚Р°: {}
+profile_rank:Р Р°РЅРі: {}
+profile_registered:Р— РЅР°РјРё Р· {}
+profile_coins:{} РјРѕРЅРµС‚ Сѓ РєРѕСЂРёСЃС‚СѓРІР°С‡Р°
+profile_achievement:Р”РѕСЃСЏРіРЅРµРЅРЅСЏ:
+achievement_coins_1_name:РџРµСЂС€С– РєСЂРѕРєРё
+achievement_coins_2_name:Р“РѕРґС– Р¶РµР±СЂР°РєСѓРІР°С‚Рё!
+achievement_coins_3_name:РџРѕСЂР° РІ РїР°РЅРё!
+achievement_coins_4_name:РџР°РЅ
+achievement_coins_5_name:РџРѕРїРµСЂРµРґ Р±Р°С‚СЊРєР° РІ РїРµРєР»Рѕ!
+achievement_coins_6_name:РњРµРЅРµ РЅРµ Р·СѓРїРёРЅРёС‚Рё!
+achievement_coins_7_name:Р’Р»Р°СЃРЅРёР№ РІРёРєСѓРїРёС‚Рё РІСЃС–С… РєСЂС–РїР°РєС–РІ
+achievement_coins_8_name:РќРѕРІРёР№ РЎР°РіР°Р№РґР°С‡РЅРёР№?
+achievement_coins_9_name:РЎРєС–Р»СЊРєРё РєРѕС€С‚СѓСЋС‚СЊ РІРѕСЂС–Р¶РµРЅСЊРєРё?
+achievement_coins_10_name:Р‘Р°С‚СЊРєС–РІС‰РёРЅР° С‚РµРїРµСЂ РЅС–РєРѕР»Рё РЅРµ Р·Р°Р·РЅР°С” Р·Р»РёРґРЅС–РІ
+achievement_coins_1_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_2_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_3_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_4_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_5_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_6_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_7_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, Р° Р·СЂРѕР±РёРІ РІС–РЅ С†Рµ {}.
+achievement_coins_8_description:РљРѕСЂРёСЃС‚СѓРІР°С‡ Р·РґРѕР±СѓРІ {} РјРѕРЅРµС‚РѕРє, С‚РёРј СЃР°РјРёРј РїСЂРёРІРµСЂРЅСѓРІС€Рё СѓРІР°РіСѓ Р°РґРјС–РЅР° {}.
+achievement_coins_9_description:Р¦РµР№ С€Р°РЅРѕРІРЅРёР№ РїР°РЅ Р·Р°СЂРѕР±РёРІ {} РјРѕРЅРµС‚. РџСЂРёС”РґРЅР°РІСЃСЏ РґРѕ РїР°РЅСЃС‚РІР° {}.
+achievement_coins_10_description:РќР°Р·Р±РёСЂР°РІ РґР»СЏ Р‘Р°С‚СЊРєС–РІС‰РёРЅРё {} РјРѕРЅРµС‚, С‚РѕРіРѕ РґРЅСЏ ({}) РІРѕРЅР° СЃС‚Р°Р»Р° РЅРµР·Р°Р»РµР¶РЅР°.
+Newbie:РљСЂС–РїР°Рє
+Moderator:РђРґРјС–РЅ СЃР°Р№С‚Сѓ
+White crow:Р‘С–Р»Р° РІРѕСЂРѕРЅР°
