@@ -1,0 +1,42 @@
+icon:Українська
+navbar_profile:Мій профіль
+navbar_leaders:Лідери
+navbar_bank:Заробіток
+navbar_settings:Налаштування
+navbar_console:Консоль
+navbar_logout:Вийти з аккаунту
+settings_title:Налаштування
+settings_submit:Прийняти
+bank_coins:Ви маєте {} монет
+bank_new_coins:Ви здобули {} монет!
+bank_remain:Ви зможете знову здобути монети через {} хвилин
+bank_submit:Здобути монет
+profile_username:Ім'я: {}
+profile_email:Пошта: {}
+profile_rank:Ранг: {}
+profile_registered:З нами з {}
+profile_coins:{} монет у користувача
+profile_achievement:Досягнення:
+achievement_coins_1_name:Перші кроки
+achievement_coins_2_name:Годі жебракувати!
+achievement_coins_3_name:Пора в пани!
+achievement_coins_4_name:Пан
+achievement_coins_5_name:Поперед батька в пекло!
+achievement_coins_6_name:Мене не зупинити!
+achievement_coins_7_name:Власний викупити всіх кріпаків
+achievement_coins_8_name:Новий Сагайдачний?
+achievement_coins_9_name:Скільки коштують воріженьки?
+achievement_coins_10_name:Батьківщина тепер ніколи не зазнає злиднів
+achievement_coins_1_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_2_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_3_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_4_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_5_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_6_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_7_description:Користувач здобув {} монеток, а зробив він це {}.
+achievement_coins_8_description:Користувач здобув {} монеток, тим самим привернувши увагу адміна {}.
+achievement_coins_9_description:Цей шановний пан заробив {} монет. Приєднався до панства {}.
+achievement_coins_10_description:Назбирав для Батьківщини {} монет, того дня ({}) вона стала незалежна.
+Newbie:Кріпак
+Moderator:Адмін сайту
+White crow:Біла ворона

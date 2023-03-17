@@ -1,0 +1,15 @@
+top_users_count(int): 5
+bonus_indent(int): 3600
+min_coins_bonus(int): 10
+max_coins_bonus(int): 50
+achievements_count(int): 10
+achievement_coins_1(int): 100
+achievement_coins_2(int): 200
+achievement_coins_3(int): 1000
+achievement_coins_4(int): 5000
+achievement_coins_5(int): 10000
+achievement_coins_6(int): 50000
+achievement_coins_7(int): 100000
+achievement_coins_8(int): 1000000
+achievement_coins_9(int): 5000000
+achievement_coins_10(int): 1000000000

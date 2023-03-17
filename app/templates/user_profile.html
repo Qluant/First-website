@@ -1,0 +1,24 @@
+{% if user.rank == "Moderator" %}
+{% extends "admin_layout.html" %}
+{% else %}
+{% extends "__layout.html" %}
+{% endif %}
+
+{% block head %}
+<link href="{{ url_for('static', filename='styles/user_profile.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<h2>{{ interface.get("profile_username").format(profile_owner.username) }}</h2>
+<h2>{{ interface.get("profile_email").format(profile_owner.email) }}</h2>
+<h2>{{ interface.get("profile_rank").format(interface.get(profile_owner.rank + "_name") or (interface.get(profile_owner.rank) or profile_owner.rank)) }}</h2>
+<h2>{{ interface.get("profile_registered").format(profile_owner.register_date) }}</h2>
+<h2>{{ interface.get("profile_coins").format(profile_owner.coins) }}</h2>
+<h2>{{ interface.get("profile_achievement") }}</h2>
+<ol>
+    {% for achievement in achievements %}
+    <li>{{ interface.get(achievement.name + "_name") }}</li>
+    <p>{{ interface.get(achievement.name + "_description").format(get_settings(achievement.name), achievement.description) }}</p>
+    {% endfor %}
+</ol>
+{% endblock %}

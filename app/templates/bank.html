@@ -1,0 +1,22 @@
+{% if user.rank == "Moderator" %}
+{% extends "admin_layout.html" %}
+{% else %}
+{% extends "__layout.html" %}
+{% endif %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/bank.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1>{{ interface.get("bank_coins").format(user.coins) }}</h1>
+<form action="" method="POST">
+    {{ form.submit(value=interface.get("bank_submit")) }}
+</form>
+{% if new_coins %}
+<h1>{{ interface.get("bank_new_coins").format(new_coins) }}</h1>
+{% endif %}
+{% if remain %}
+<h1>{{ remain }}</h1>
+{% endif %}
+{% endblock %}

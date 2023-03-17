@@ -1,0 +1,31 @@
+{% if user.rank == "Moderator" %}
+{% extends "admin_layout.html" %}
+{% else %}
+{% extends "__layout.html" %}
+{% endif %}
+
+{% block head %}
+<link href="{{ url_for('static', filename='styles/settings.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<form action="" method="post">
+    <form action="" method="post">
+        <div class="main-block">
+            {{ form.hidden_tag() }}
+
+            <div class="main-text">
+                <p>{{ interface.get("settings_title") }}</p>
+            </div>
+
+            <div class="main-block-language main-block-block">
+                {{ form.language() }}
+            </div>
+
+            <div class="main-block-button-submit buttons">
+                {{ form.submit(value=interface.get("settings_submit")) }}
+            </div>
+        </div>
+    </form>
+</form>
+{% endblock %}

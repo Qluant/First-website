@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/adaptiveCss.css') }}">
+</head>
+<body>
+    <form action="" method="post">
+        <div class="main-block">
+            {{ form.hidden_tag() }}
+
+            <div class="main-text">
+                <p>{{ interface.get("login_title") }}</p>
+            </div>
+
+            <div class="main-block-username main-block-block">
+                {{ form.username(placeholder=interface.get("login_username")) }}
+            </div>
+
+            <div class="main-block-username-errors main-block-block">
+                {% for error in form.username.errors %}
+                    <span class="input-group-text text-danger" style="color:red">{{ error }}</span>
+                {% endfor %}
+            </div>
+
+            <div class="main-block-password main-block-block">
+                {{ form.password(placeholder=interface.get("login_password")) }}
+            </div>
+
+            <div class="main-block-password-errors main-block-block">
+                {% for error in form.password.errors %}
+                    <span class="input-group-text text-danger" style="color:red">{{ error }}</span>
+                {% endfor %}
+            </div>
+
+            <div class="main-block-buttons">
+                <div class="main-block-button-submit buttons">
+                    <button type="submit">{{ interface.get("login_submit") }}</button>
+                </div>
+                <div class="main-block-button-reset buttons">
+                    <button type="reset">{{ interface.get("login_clear") }}</button>
+                </div>
+            </div>
+
+            <div class="main-block-sign-up-link main-block-block">
+                <p>{{ interface.get("login_link_text") }} <a href="{{ url_for('register') }}">{{ interface.get("login_link_word") }}</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

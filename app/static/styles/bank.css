@@ -1,0 +1,31 @@
+nav{
+    background: rgb(30, 29, 29);
+    text-align: center;
+    background-color: rgb(30, 29, 29); /* sets the background color of the navbar */
+    overflow: hidden; /* hides any overflow content */
+}
+    
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* removes bullet points from the list */
+    display: flex; /* displays the list items horizontally */
+    justify-content: center; /* centers the list items horizontally */
+}
+  
+  nav li {
+    margin: 0 10px; /* adds margin between each list item */
+  }
+  
+nav li a{
+    display: block;
+    color: white; /* sets the text color of the links */
+    text-align: center;
+    padding: 14px 16px; /* adds padding to the links */
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #ddd; /* sets the background color of the link on hover */
+    color: black; /* sets the text color of the link on hover */
+}

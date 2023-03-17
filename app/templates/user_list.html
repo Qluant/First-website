@@ -1,0 +1,15 @@
+{% if user.rank == "Moderator" %}
+{% extends "admin_layout.html" %}
+{% else %}
+{% extends "__layout.html" %}
+{% endif %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/user_list.css') }}">
+{% endblock %}
+
+{% block content %}
+{% for user in users %}
+<p>{{user.username}} ({{user.email}}) - {{user.password}}</p>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "admin_layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/console.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    <div class="console">
+        <div class="title">
+            <h1>Console</h1>
+        </div>
+        <div class="display">
+            {% for line in console.last_strings %}
+            <p>{{ line }}</p>
+            {% endfor %}
+        </div>
+
+        <form action="" method="post">
+            <div class="form-div">
+                {{ form.hidden_tag() }}
+                {{ form.command(class="input-field") }}
+                {{ form.submit(class="submit-button") }}
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

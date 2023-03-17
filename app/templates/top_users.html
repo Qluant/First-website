@@ -1,0 +1,17 @@
+{% if user.rank == "Moderator" %}
+{% extends "admin_layout.html" %}
+{% else %}
+{% extends "__layout.html" %}
+{% endif %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/top_users.css') }}">
+{% endblock %}
+
+{% block content %}
+<ol>
+    {% for user in users %}
+    <li>{{user.username}} - {{user.coins}}</li>
+    {% endfor %}
+</ol>
+{% endblock %}

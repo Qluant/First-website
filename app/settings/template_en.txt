@@ -1,0 +1,55 @@
+icon:English
+register_title:Registration
+register_username:Enter your username
+register_email:Enter your email
+register_password:Enter your password
+register_reply_password:Repeat the password
+register_submit:Apply
+register_clear:Clear form
+register_link_text:If you are not registered, click 
+register_link_word:there
+login_title:Login
+login_username:Enter your username
+login_password:Enter your password
+login_submit:Apply
+login_clear:Clear form
+login_link_text:If you are already registered, click 
+login_link_word:there
+navbar_profile:My profile
+navbar_leaders:Leaders
+navbar_bank:Get coins
+navbar_settings:Settings
+navbar_console:Console
+navbar_logout:Logout
+settings_title:Settings
+settings_submit:Apply
+bank_coins:Your have {} coins
+bank_new_coins:You earned {} coins!
+bank_remain:You can take profit in {} minutes
+bank_submit:Take profit
+profile_username:Username: {}
+profile_email:Email: {}
+profile_rank:Rank: {}
+profile_registered:With us from {}
+profile_coins:Username coins: {}
+profile_achievement:Achievements:
+achievement_coins_1_name:First steps
+achievement_coins_2_name:Get richer
+achievement_coins_3_name:Going to top!
+achievement_coins_4_name:The rich guy
+achievement_coins_5_name:Going ahead!
+achievement_coins_6_name:Unstoppable
+achievement_coins_7_name:The world will be mine!
+achievement_coins_8_name:Admin's problem
+achievement_coins_9_name:Can I buy this website?
+achievement_coins_10_name:The God
+achievement_coins_1_description:User mined {} coins. User got this role on {}.
+achievement_coins_2_description:User mined {} coins. User got this role on {}.
+achievement_coins_3_description:User mined {} coins. User got this role on {}.
+achievement_coins_4_description:User mined {} coins. User got this role on {}.
+achievement_coins_5_description:User mined {} coins. User got this role on {}.
+achievement_coins_6_description:User mined {} coins. User got this role on {}.
+achievement_coins_7_description:User mined {} coins. User got this role on {}.
+achievement_coins_8_description:User mined {} coins. User got admin's attention on {}.
+achievement_coins_9_description:This businessman earned {} coins. Became so powerful on {}.
+achievement_coins_10_description:Took all coins in the world and show only {} of it. Become it on {}.
