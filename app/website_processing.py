@@ -84,16 +84,15 @@ def add_achievement(db: SQLAlchemy, Achievement: any, author: str, name: str, de
 
 
 def is_new_achievement(db: SQLAlchemy, user: any, Achievement: any) -> None:
-    if user.rank in ["Moderator", "White crow"]:
-        return None
     user_achievements = Achievement.query.filter_by(author=user.username).all()
     achievement_coins = [get_settings(f"achievement_coins_{index}") for index in range(1, get_settings("achievements_count")+1)]
     achievement_name = [user_achievement.name for user_achievement in user_achievements]
     for index in range(1, get_settings("achievements_count")+1):
-        if f"role_coins_{index}" not in achievement_name and user.coins >= achievement_coins[index-1]:
+        if f"achievement_coins_{index}" not in achievement_name and user.coins >= achievement_coins[index-1]:
             add_achievement(db, Achievement, user.username, f"achievement_coins_{index}", str(date.today()))
-            user.rank = f"achievement_coins_{index}"
-            db.session.commit()
+            if user.rank not in ["Moderator", "White crow"]:
+                user.rank = f"achievement_coins_{index}"
+                db.session.commit()
 
 
 def get_form_choices(choice_type: str) -> list[complex]:
